@@ -1,19 +1,26 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "App to match new friends based on survery responses.",
+  "description": "class project",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nes.css": "^2.1.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dcoxmen/FriendFinder.git"
+  },
+  "author": "DCox",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "env": "0.0.2",
-    "express": "^4.16.4",
-    "nes.css": "^2.1.1",
-    "path": "^0.12.7"
-  }
+  "bugs": {
+    "url": "https://github.com/Dcoxmen/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Dcoxmen/FriendFinder#readme"
 }

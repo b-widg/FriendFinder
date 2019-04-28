@@ -1,71 +1,71 @@
-
-<!-- Example App https://friend-finder-fsf.herokuapp.com/ -->
-<!-- https://www.npmjs.com/package/nes.css -->
-<!-- https://nostalgic-css.github.io/NES.css/ -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>FriendFinder</title>
-  
-    <!-- Latest compiled and minified CSS & JS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  
-    <!-- Font Awesome Glyphicons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <title>Mario Friend Finder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Font Awesome Glyphicons -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"/> -->
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet"/>
  
     <style>
       html, body, pre, code, kbd, samp {
-          font-family: 'Press Start 2P', cursive;;
+          font-family: "Press Start 2P", cursive;
       }
-    </style> 
-  
+    </style>
   </head>
-  
-  <body class="vsc-initialized">
-  
+  <body>
     <div class="container">
-      <!-- <i class="nes-icon facebook is-large"></i> -->
+      <!-- <div class="jumbotron"> -->
+    <div class="bg">
+          <h1><i class="nes-icon facebook is-large" aria-hidden="true"></i>   Mario Friend Finder</h1>
+          <hr>
+          <h2>Answer a few basic questions. </h2>
+          <h2>Then find the friend with the greatest compatibility!</h2>
+          <br>
 
-      <div class="jumbotron">
-        <h1><i class="nes-icon facebook is-large" aria-hidden="true"></i> Friend Finder</h1>
-        <hr>
-        <h2>Answer a few basic questions. </h2>
-        <h2>Then find the friend with the greatest compatibility!</h2>
-        <br>
-
-        <!-- <a class="nes-btn">Normal</a> -->
-
-<!-- <button type="button" class="nes-btn is-primary">Primary</button>
-<button type="button" class="nes-btn is-success">Success</button>
-<button type="button" class="nes-btn is-warning">Warning</button>
-<button type="button" class="nes-btn is-error">Error</button>
-<button type="button" class="nes-btn is-disabled">Disabled</button> -->
-  
-        <!-- <div>
-          <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
-        </div> -->
-        <div>
-          <a href="/survey"><button type="button" class="nes-btn is-primary"><h4><span class=""></span> Go to Survey</h4></button></a>
+          <div>
+            <a href="/survey"><button type="button" class="nes-btn is-primary"><h4><span class=""></span> Go to Survey</h4></button></a>
+          </div>
+    
         </div>
-  
-      </div>
-  
-      <footer class="footer">
+
+
+      <!-- <div class="jumbotron">
+        <div class="Mntitle"><h1>Meet your Forever</h1></div>
+        <h2 class="Mntitle">Answer a few common questions.</h2>
+        <h2 class="Mntitle">
+          Then find the one with the greatest compatibility!
+        </h2>
+        <br />
+        <div>
+          <a href="/survey">
+            <button type="button" class="nes-btn is-primary">
+              <h4>
+                <span class="glyphicon glyphicon-list-alt"></span>Go to Survey
+              </h4>
+            </button>
+          </a>
+        </div>
+        <div><a href="/api/friends">API list</a></div>
+      </div> -->
+      <footer class="footer text-center">
         <div class="container">
-          <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+          <p>
+              <a href="/api/friends">API list</a> |
+            <a href="https://github.com/Dcoxmen/friend-finder">GitHub Repo</a>
+            <br />
+          </p>
         </div>
       </footer>
-  
     </div>
-  
-  
-  
-  
   </body>
-  </html>
+</html>
