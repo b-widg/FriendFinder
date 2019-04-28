@@ -23,21 +23,12 @@
   </head>
   <body>
     <div class="container bg">
-      <!-- <div class="jumbotron">
-
-
-        <div class="Mntitle"><h1>Meet Your Forever</h1></div>
-        <hr />
-        <h2 class="Mntitle">
-          Then find the one with the greatest compatibility!
-        </h2>
-      </div> -->
 
       <h1 style="margin-top: 1.5rem">Survey Questions</h1>
       <hr />
       <h3 class="questions"><strong>About You</strong></h3>
       <h4 style="margin-top: 1rem">Name (Required)</h4>
-      <input type="text" name="" id="name" class="form-control" required />
+      <input type="text" name="" id="name" class="nes-field form-control" required />
       <h4 style="margin-top: 1rem">Link to photo (Required)</h4>
       <input type="text" name="" id="photo" class="form-control" required />
       <hr />
@@ -170,12 +161,11 @@
             </button>
             <h2 class="modal-title"><strong>Best Match</strong></h2>
           </div>
-
+         
           <div class="modal-body">
             <h2 id="matchName"></h2>
-            <img src="../public/images/mario.png"
-              alt="Placeholder image in case user pic doesn't show"
-            />
+            <img id="matchImg" src="./images/mario.png" style="max-width: 250px"
+              alt="No Picture Provided."/>
           </div>
           <div class="modal-footer">
             <button type="button" class="nes-btn" data-dismiss="modal">
